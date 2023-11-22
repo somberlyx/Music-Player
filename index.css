@@ -17,7 +17,7 @@
 
 .music-player{
   background: #ffc2b1;
-  width: 400px;
+  width: 700px;
   padding: 25px 35px;
   text-align: center;
 }
@@ -29,5 +29,29 @@ nav{
 }
 
 nav img {
-  width: 35px;
+  width: 60px;
+  padding: 15px;
+  background-color: #fff;
+  border-radius: 50%;
+  box-shadow:0 5px 10px #333;
+}
+
+.song-thumbnail {
+  width: 500px;
+  height: 400px;
+  margin-top: 30px;
+  border: 8px solid #fff;
+  box-shadow: 0 10px 60px #333;
+  margin-bottom: 30px;
+}
+
+.music-player h1 {
+  font-size: 40px;
+  font-weight: 400;
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+
+.mmusic-player p {
+  font-size: 24px;
 }

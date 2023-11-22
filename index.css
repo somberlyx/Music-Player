@@ -16,8 +16,18 @@
 }
 
 .music-player{
-  background: #AF6754;
+  background: #ffc2b1;
   width: 400px;
   padding: 25px 35px;
   text-align: center;
+}
+
+nav{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+
+nav img {
+  width: 35px;
 }

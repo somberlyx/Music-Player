@@ -12,10 +12,11 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-wrap: wrap;
 }
 
 .music-player{
-  background: #ffe0e5;
+  background: #AF6754;
   width: 400px;
   padding: 25px 35px;
   text-align: center;

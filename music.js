@@ -1,7 +1,6 @@
 let progressBar = document.getElementById("progress");
 let song = document.getElementById("song");
 let controlIcon = document.getElementById("controlIcon");
-// let playIcon = document.querySelector(".play");
 
 let controlImg = document.querySelector(".play-pause-img")
 

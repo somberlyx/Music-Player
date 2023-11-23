@@ -55,3 +55,7 @@ nav img {
 .mmusic-player p {
   font-size: 24px;
 }
+
+#progress{
+  display: block;
+}

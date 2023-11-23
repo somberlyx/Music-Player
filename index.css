@@ -86,10 +86,6 @@ nav{
   gap: 20px;
 }
 
-audio {
-  display: none;
-}
-
 .controls img {
   width: 80px;
   height: 80px;

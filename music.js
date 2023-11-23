@@ -27,5 +27,19 @@ song.onloadedmetadata = function() {
   progressBar.value = song.currentTime;
 }
 
+if(song.play()){
+  setInterval(() => {
+    progressBar.value = song.currentTime;
+  }, 500);
+}
+
+progressBar.onchange = function (){
+  song.play();
+  song.currentTime = progressBar.value;
+  controlIcon.classList.remove("pause");
+    controlIcon.classList.add("play");
+  controlImg.src = "images/icons8-pause-button-64.png";
+} 
+
 playPause.addEventListener("click", pausePlay);
 
